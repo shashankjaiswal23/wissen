@@ -1,0 +1,20 @@
+export const GRAPHQL_API = "https://test-323.herokuapp.com/v1/graphql";
+export const TODOS = `{
+    tasks {
+      id
+      created_at
+      title
+    }
+  }` ;
+
+  export const INSERT_TASK = `{
+    mutation{
+  insert_tasks(objects: [{title:}]){
+    
+  
+  }
+
+  }` ;
+
+  export const JWT =
+    "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im1xTFFXMDlNTUxRMUNNZGJpV3cwSyJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjp7IngtaGFzdXJhLWRlZmF1bHQtcm9sZSI6InVzZXIiLCJ4LWhhc3VyYS1hbGxvd2VkLXJvbGVzIjpbInVzZXIiXSwieC1oYXN1cmEtdXNlci1pZCI6Imdvb2dsZS1vYXV0aDJ8MTE0NzM0Nzk4NTYxMDk3OTg3ODA0In0sImdpdmVuX25hbWUiOiJTSEFTSEFOSyIsImZhbWlseV9uYW1lIjoiSkFJU1dBTCIsIm5pY2tuYW1lIjoic2hhbmtqMjMwNCIsIm5hbWUiOiJTSEFTSEFOSyBKQUlTV0FMIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hLS9BT2gxNEdqbFJlMmJsbGh2SzRpTVBoZmQxa3ZmcUdSbmY0OEdlbFE4X2lwND1zOTYtYyIsImxvY2FsZSI6ImVuIiwidXBkYXRlZF9hdCI6IjIwMjAtMTAtMjFUMDk6MTQ6MzUuNjI4WiIsImlzcyI6Imh0dHBzOi8vdGVzdC0zMjMudXMuYXV0aDAuY29tLyIsInN1YiI6Imdvb2dsZS1vYXV0aDJ8MTE0NzM0Nzk4NTYxMDk3OTg3ODA0IiwiYXVkIjoiTXJVUzNzWUxKVFNaWjMyaVIzeDlIcEFidzM5VlVSVWgiLCJpYXQiOjE2MDMyNzE2NzUsImV4cCI6MTYwMzMwNzY3NSwiYXRfaGFzaCI6InhQS2dia0plNmgyS1BZV09WdmdrN1EiLCJub25jZSI6ImNRNGJrTklRSFZndmdoWTNpOTFIOGZob2kxbG5UOFRiIn0.tDaJTnx8vwoy1fgJq6EA4bfi5gIQv-xWmW_tcs4xgsbL64yIwpuciIUclzjZeABZaUP9bKiI-6Xd6AtFkH-5DP3XUhfTo0Im5Oa19BPY7vcit6shjm4t7_h5JJ5nqM3ZFhM7_fXhGrU7Bqnk3bh7Q3ahFje31Xr5a8bbEdp-wNO_BFCP7U2-kBP_rJoI92smU0bv9iJyeu_t8cr0-5hOi5n_SU9mUa0YQmtL6R-4c4e8-L0TQJFLACGLd1O2IJv457VJSQRjj0Rp8n9xRORmQmQuX6KwCSAOe8EC1OUAfsUJ8mGNGOsRMw-PPYmbCQUOxmjsQKmfQMBUsgD3sBzKWw";
